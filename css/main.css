@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+/* transition: 1s; */
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+hr {
+  border: 0.5px solid #ccc;
+  margin: 50px 0;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  color: #fff;
+  /* padding: 10px; */
+}
+
+header div {
+  background-color: #d72f01;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+header #mobile {
+  background-color: #d72f01;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+header p {
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 1em;
+}
+
+header div .fa {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header div .fa-remove {
+  display: none;
+}
+
+header li {
+  padding: 5px;
+  font-size: .8em;
+}
+
+header li {
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+}
+
+
+
+#container #one {
+  display: none;
+}
+
+#container #two {
+  padding: 50px;
+}
+
+#container #two h1 {
+font-size: 2.5em;
+font-weight: bolder;
+padding-top: 20px;
+color: #6b7436;
+}
+
+#container #two h1 span {
+color: #d72f01;
+}
+
+#container #two h2 {
+  font-size: 1em;
+  color: #7b8937;;
+}
+
+#container #two h2 span {
+color: #d72f01;
+}
+
+#container #two #about {
+
+}
+
+#container #two #about p {
+padding: 20px 0;
+font-size: .8em;
+color: #a5aa89;
+}
+
+#container #two #about .fa {
+font-size: .8em;
+background-color: #6b7436;
+padding: 7px;
+margin: 5px;
+border-radius: 100%;
+color: #fff;
+}
+
+#container #two #about .fa:hover {
+background-color: #d72f01;
+}
+
+#container #two h3 {
+font-size: 1.5em;
+font-weight: bolder;
+padding-top: 15px;
+color: #6b7436;
+}
+
+#container #two h4 {
+font-size: 1em;
+font-weight: bolder;
+padding-top: 25px;
+color: #6b7436;
+}
+
+#container #two h5 {
+font-size: .9em;
+/* font-weight: bolder; */
+/* padding-top: 100px; */
+color: #a5aa89;
+padding: 10px 0;
+}
+
+#container #two p {
+font-size: .8em;
+/* font-weight: bolder; */
+padding: 20px 0;
+color: #a5aa89;
+}
+
+#container #two #skills .logo {
+padding: 30px 0;
+}
+
+#container #two #skills .logo .fa {
+font-size: 1.2em;
+color: #a3a887;
+margin: 5px 5px 0 5px;
+}
+
+#container #two #skills .logo .fa:hover {
+color: #f16141;
+}
+
+.list {
+padding: 30px 10px;
+}
+
+.list li {
+color: #a3a887;
+font-size: .8em;
+}
+
+.fa-check, .fa-certificate {
+color: #7b8937;
+padding-right: 5px;
+}
+

@@ -1,0 +1,114 @@
+
+
+@media only screen and (min-width: 800px) {
+    
+    header {
+        display: none;
+    }
+
+
+    hr {
+        border: 0.5px solid #ccc;
+        margin: 100px 0;
+      }
+
+    #container {
+        display: flex;
+    }
+
+    #container #one {
+        display: block;
+        width: 280px;
+        position: fixed;
+        background-color: #d72f01;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* overflow: scroll; */
+    }
+    #container #one  img {
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+        border: 10px solid #f09e8c;
+        margin-top: 50%;
+        margin-bottom: 20px;
+    }
+
+    #container #one li {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    #container #one a {
+        color: #f09e8c;
+    }
+
+    #container #one a:hover {
+        color: #f4d9c1;
+    }
+
+    #container #two {
+        margin-left: 280px;
+    }
+
+    #container #two h1 {
+    font-size: 5em;
+    padding-top: 100px;
+    }
+
+    #container #two h2 {
+        font-size: 2em;
+    }
+
+    #container #two #about p {
+    padding: 50px 0;
+    font-size: 1.4em;
+    }
+
+    #container #two #about .fa {
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 0 20px 0 0;
+    }
+
+    #container #two h3 {
+    font-size: 2em;
+    padding-top: 30px;
+    }
+
+    #container #two h4 {
+    font-size: 1.2em;
+    padding-top: 50px;
+    }
+
+    #container #two h5 {
+    font-size: 1em;
+    }
+
+    #container #two p {
+    font-size: 1.2em;
+    /* font-weight: bolder; */
+    padding: 30px 0;
+    }
+
+    #container #two #skills .logo {
+    padding: 50px 0;
+    }
+
+    #container #two #skills .logo .fa {
+    font-size: 60px;
+    margin-right: 40px;
+    }
+
+    .list {
+    padding: 30px 10px;
+    }
+
+    .list li {
+        font-size: 1em;
+    }
+
+}
